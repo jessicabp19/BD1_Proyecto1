@@ -1,0 +1,196 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="582ACA72-A8B1-482C-2741-30AD0B726BA1" name="DetalleVotos">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>DD360824-6950-4ACD-63BE-F4A468D5152B</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DF111052-C7D6-AAF5-E434-3A06CFFB5213">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>C734E44E-CF25-F929-84DB-93FEABF3C979</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analfabetas" id="917844B6-CBD5-28AC-6F94-3C243580CB1E">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>CA55C0C4-C01A-CE07-77F5-AE621B629888</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alfabetas" id="BA4454AE-D6B6-E630-DB0F-476A4D9FB319">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>0B27E4DF-F6EE-7275-EA35-C82FE54D1547</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primaria" id="A68E7CD3-0078-F7A3-1761-DEB8B2482012">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>D865093E-2611-2C65-3807-05BA89A978A4</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medio" id="8E509456-C4FE-4BDE-4B95-E5EDFB394003">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>87571BA9-C14E-025F-0DFD-805AC4B78339</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="universitario" id="CF308DC0-51E6-F15D-6DD9-548805B109D6">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>D6305575-15B2-2B83-D9E2-FB6E494C54BF</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Raza_id" id="53125719-5FB5-B2BF-3AA4-87D9023782E5">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>52E4D00E-8A21-AC7F-CA7A-38A873A0CD60</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="294122BE-6E41-6F9E-BF3B-D863A923EEFA" referredColumn="B953CC48-DB33-6887-C889-5AB38B8519BF"/>
+</associations>
+</Column>
+<Column name="Municipio_id" id="F6F7E3C0-A072-2979-0594-BFA59C80C73E">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>F643BB74-3F90-D880-F0E4-6700EE231AA2</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98EED19E-888E-F54E-9A4F-AA4AE0D6BDC0" referredColumn="0BB72ADA-552C-F1E0-7D9C-66F8AD9D32B5"/>
+</associations>
+</Column>
+<Column name="EleccionPartido_id" id="F32ABDFC-01F8-5B59-D41D-83C6196B15DE">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>082E1E45-A2B6-4E62-CDE4-98F1A0E02C0F</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2DFEB0D-8A0E-4C37-D9D7-018915A4D101" referredColumn="B4E82637-A867-7E84-4B73-22C881CA0E20"/>
+</associations>
+</Column>
+<Column name="Genero_id" id="0C81FAA2-30B1-F627-C624-385E2C221120">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>36A59AFB-170A-57A4-019C-F83B5E64EE9C</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96C11CD6-F749-3E1B-FBDF-EA1DB942A46A" referredColumn="C2D1F94B-F61B-43F3-7291-2F25E1C7E4AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9C83FE3-308F-397E-8E76-5328A2239212" name="DetalleVotos_PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>546DD188-9C3E-C9F1-521C-46279F1189BE</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF111052-C7D6-AAF5-E434-3A06CFFB5213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43927D99-903A-B4C8-19CE-6379E02DAA5A" name="DetalleVotos_Raza_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>239CE864-A937-F355-2AB1-9616A649C8E4</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53125719-5FB5-B2BF-3AA4-87D9023782E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D82C6328-9B49-3413-16FA-501EA27E4016" name="DetalleVotos_Municipio_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>A9199687-D46D-8635-DE04-CDAC38A11A8E</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6F7E3C0-A072-2979-0594-BFA59C80C73E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C40FAE20-C69E-B7B7-8358-E5F55604906A" name="DetalleVotos_Genero_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>42EF1588-B2FA-EEB6-D954-049F4EB6F9C3</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C81FAA2-30B1-F627-C624-385E2C221120"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3962F60F-94A0-3832-80B9-B52FCE7D7F93" name="DetalleVotos_EleccionPartido_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>5D8C82C4-4DEB-10DE-DCA0-B194CC50A2B1</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F32ABDFC-01F8-5B59-D41D-83C6196B15DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

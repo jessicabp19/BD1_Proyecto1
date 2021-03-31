@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D063D79-AEBD-B918-734D-B953434DA18D" containerWithKeyObject="918E2CBC-7186-0907-F7C9-9167CDB2D815" localFKIndex="16B0516B-0A75-FF17-FA48-6C8BD7817D1F" name="Municipio_Departamento_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>CFF77C4A-F446-CE65-46F6-FECF8BDD5173</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<referredTableLongName>Departamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>187C1227-47A5-6635-8ED8-F75343F4A4CF</referredTableID>
+<keyObject>074568F7-1F34-364A-76BD-2566098CB57E</keyObject>
+<referredKeyID>074568F7-1F34-364A-76BD-2566098CB57E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

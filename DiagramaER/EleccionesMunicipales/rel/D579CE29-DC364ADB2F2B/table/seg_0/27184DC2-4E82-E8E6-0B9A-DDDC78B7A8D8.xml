@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27184DC2-4E82-E8E6-0B9A-DDDC78B7A8D8" name="Raza">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>9443CF17-76CE-5271-579B-B52126D5D5A6</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B953CC48-DB33-6887-C889-5AB38B8519BF">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>10C03CEC-351E-D960-F586-5F209379B2B9</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="raza" id="7C5A1CBF-ADDC-00B9-6DF8-3D7371260C1B">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>51D846B8-84F5-6BBC-0F1B-A608DC94F159</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A296FC8-CD7C-BC84-2D9F-C75295D77014" name="Raza_PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>6703228D-7D41-1AA3-3506-2015A55CFE53</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B953CC48-DB33-6887-C889-5AB38B8519BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

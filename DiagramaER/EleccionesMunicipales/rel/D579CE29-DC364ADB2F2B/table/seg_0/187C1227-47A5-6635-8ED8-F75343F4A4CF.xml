@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="187C1227-47A5-6635-8ED8-F75343F4A4CF" name="Departamento">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>26D9BE03-A426-1A90-E33F-21E2E4CC6FD0</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="16471D4B-14EC-B6E9-1EF4-B2C9401737EA">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>0E1ADAB5-2A9F-21A2-FFFF-B5955E866DC1</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departamento" id="CEC83B7A-46F8-8969-93C0-18A1A8888F57">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>4DB6086E-6FF8-C898-FC76-3969F78BCB53</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_id" id="AEB8ABD2-71D4-D0C6-20A5-1844DE62AFC3">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>EB9DCA5F-23BB-476D-7466-9842EC661D0F</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="405985D4-2FCE-F3E0-5735-F3C85BF7A615" referredColumn="556513E9-B3CB-5A1E-D968-C903964B62C6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="074568F7-1F34-364A-76BD-2566098CB57E" name="Departamento_PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>0ECAA592-C7CF-F7E6-A031-F1FC494A7F8B</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16471D4B-14EC-B6E9-1EF4-B2C9401737EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4737B54A-47F2-5240-1AC3-9A82C2AF10D4" name="Departamento_Region_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>FD7F65C7-CB75-26CE-5751-44994CDEEF34</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEB8ABD2-71D4-D0C6-20A5-1844DE62AFC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

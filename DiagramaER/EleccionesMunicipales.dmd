@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EleccionesMunicipales" id="6AAC6AFF-50F3-F841-3854-6832D91A9427" version="3.5">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 12:58:10 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6AAC6AFF-50F3-F841-3854-6832D91A9427</designId>
+</OSDM_Design>

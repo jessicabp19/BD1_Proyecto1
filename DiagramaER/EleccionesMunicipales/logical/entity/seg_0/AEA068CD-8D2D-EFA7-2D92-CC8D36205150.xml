@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEA068CD-8D2D-EFA7-2D92-CC8D36205150" name="Eleccion">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 12:58:23 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="53BBFADB-7099-4F10-6368-2E84E778C11F">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 12:58:43 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F3E5F877-7DBB-A2D9-418B-18B6DEBD098D">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-23 06:35:15 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="año" id="F1B5D832-37B2-934D-C156-8EE120FD57D1">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 12:58:59 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B3F98E7-ACE0-1C4E-42E7-D8C6C9D93C61" name="EleccionesMunicipales PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 12:58:58 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>53BBFADB-7099-4F10-6368-2E84E778C11F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

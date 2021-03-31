@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3060711-CFF4-E2A5-6344-F62A4540514E" name="Region">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-17 04:30:23 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="760F060D-53A3-FB32-0B00-02EAA6C6FEC6">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-17 04:30:29 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="61709A14-FDAA-9E7D-919C-E69F40F691CA">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-17 04:30:38 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="2F7131A4-22D7-A174-9885-7FEF0A79B19C">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-23 06:33:05 UTC</createdTime>
+<generatorID>18ECC371-BAC7-0F59-3028-18CD79C08398</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<referedAttribute>EB7C5E9D-BE21-7C7D-08CF-CF7F34D66A22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2548E22-2C73-9092-036C-491BFD6FDD8B" name="Region PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-17 04:30:36 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>760F060D-53A3-FB32-0B00-02EAA6C6FEC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="673C04E8-FF18-9C42-AC44-124237785243" name="EleccionPartido">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>C9819DF1-F801-0F61-2771-A43F47439543</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B4E82637-A867-7E84-4B73-22C881CA0E20">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>C1974181-73E3-C12C-2BF8-57D8E0E4A74A</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Eleccion_id" id="BCA71A99-086F-4AEC-DF4E-B0EC8D918B52">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>27595463-03CB-3934-BCBB-B52FC5F5547E</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34AE7FC8-2903-88ED-BEE1-2F0D6663F2F6" referredColumn="603A73F5-32DC-B532-A482-88D75170AF52"/>
+</associations>
+</Column>
+<Column name="Partido_id" id="531F44B3-BDF8-E584-38A5-6364C9F36F61">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>5EEA7A64-6C3A-F881-FA65-79030C9BC81C</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D6757AE-B686-6F8F-A400-FCB2045EC63E" referredColumn="7DFDFFB2-1806-48B0-BEEA-5EC7D9E9A710"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0198395-A748-280D-415C-01F10E00BFB6" name="EleccionPartido_PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>9D282A46-9230-FDFA-66BC-DFA511B19958</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4E82637-A867-7E84-4B73-22C881CA0E20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04838ED1-52D0-8F7E-4832-1B5758A35CD5" name="EleccionPartido_Partido_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>F800555E-53C2-CD78-6051-00A94D8F8C32</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="531F44B3-BDF8-E584-38A5-6364C9F36F61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54CF8C1D-1007-CF4C-9519-99873CA8E15A" name="EleccionPartido_Eleccion_FK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>F0E94F94-FB55-8F3A-88D1-D09D362C342D</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCA71A99-086F-4AEC-DF4E-B0EC8D918B52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77932EAA-FC0E-C5D1-C213-AB695F2ED1F8" name="Pais">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>B67F3F97-24F1-B3AD-E2DE-5D87E38F8035</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6AC1F501-79CC-D32D-296F-EE2FAA82FBAC">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>EB7C5E9D-BE21-7C7D-08CF-CF7F34D66A22</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B79E0947-8F1F-2233-F74C-E5C66B5BC767">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>502F3F15-B845-5328-8F27-9996F2928450</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD212BE3-27B0-6375-210C-E51D814717E4" name="Pais_PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-31 05:52:18 UTC</createdTime>
+<generatorID>B6D5FC5A-16F2-0805-23C4-09D8DDAB081A</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AC1F501-79CC-D32D-296F-EE2FAA82FBAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

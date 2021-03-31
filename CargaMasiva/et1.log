@@ -1,0 +1,70 @@
+
+SQL*Loader: Release 18.0.0.0.0 - Production on Mar Mar 30 12:03:25 2021
+Version 18.4.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+
+Archivo de Control:   et1.ctl
+Juego de caracteres UTF8 especificado para todas las entradas.
+El primer archivo de datos primario DatosACargar.csv tiene una
+ marca de orden de bytes utf8.
+
+Archivo de Datos:      DatosACargar.csv
+  Archivo de Errores:     DatosACargar.bad
+  Desechar Archivo:  ninguno especificado
+ 
+ (Permitir todos los registros desechados)
+
+Número a cargar: ALL
+Número que omitir: 1
+Errores permitidos: 50
+Matriz de enlace:     250 filas, máximo de 1048576 bytes
+Continuación:    ninguno especificado
+Ruta de acceso utilizada:      Convencional
+
+Tabla TEMPORAL, cargada de cada registro lógico.
+Opción INSERT activa para esta tabla: INSERT
+Opción TRAILING NULLCOLS activada
+
+   Nombre Columna                  Posición   Long  Term Entorno Tipo de Dato
+------------------------------ ---------- ----- ---- ---- ---------------------
+NOMBRE_ELECCION                     FIRST     *   ;       CHARACTER            
+ANIO_ELECCION                        NEXT     *   ;       CHARACTER            
+PAIS                                 NEXT     *   ;       CHARACTER            
+REGION                               NEXT     *   ;       CHARACTER            
+DEPTO                                NEXT     *   ;       CHARACTER            
+MUNICIPIO                            NEXT     *   ;       CHARACTER            
+PARTIDO                              NEXT     *   ;       CHARACTER            
+NOMBRE_PARTIDO                       NEXT     *   ;       CHARACTER            
+SEXO                                 NEXT     *   ;       CHARACTER            
+RAZA                                 NEXT     *   ;       CHARACTER            
+ANALFABETOS                          NEXT     *   ;       CHARACTER            
+ALFABETOS                            NEXT     *   ;       CHARACTER            
+SEXO_                                NEXT     *   ;       CHARACTER            
+RAZA_                                NEXT     *   ;       CHARACTER            
+PRIMARIA                             NEXT     *   ;       CHARACTER            
+NIVEL_MEDIO                          NEXT     *   ;       CHARACTER            
+UNIVERSITARIOS                       NEXT     *   ;       CHARACTER            
+
+el valor utilizado para el parámetro ROWS ha cambiado de 250 a 239
+
+Tabla TEMPORAL:
+  20970 Filas cargadas correctamente.
+  0 Filas no cargadas debido a errores de datos.
+  0 Filas no cargadas porque todas las cláusulas WHEN han fallado.
+  0 Filas no cargadas porque todos los campos eran nulos.
+
+
+Espacio asignado a matriz de enlace:          1048254 bytes (239 filas)
+Bytes de buffer de lectura: 1048576
+
+Total de registros lógicos omitidos:          1
+Total de registros lógicos leídos:       20970
+Total de registros lógicos rechazados:         0
+Total de registros lógicos desechados:        0
+
+La ejecución empezó en Mar Mar 30 12:03:25 2021
+La ejecución terminó en Mar Mar 30 12:03:26 2021
+
+Tiempo transcurrido:     00:00:01.09
+Tiempo de CPU:         00:00:00.24

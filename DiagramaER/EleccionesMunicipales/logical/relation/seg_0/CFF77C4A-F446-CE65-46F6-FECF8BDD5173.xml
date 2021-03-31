@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="CFF77C4A-F446-CE65-46F6-FECF8BDD5173">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 13:25:19 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<sourcePk>0ECAA592-C7CF-F7E6-A031-F1FC494A7F8B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26D9BE03-A426-1A90-E33F-21E2E4CC6FD0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C7C4CA9D-6E59-A8B5-BF9C-4E0A02B00577</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

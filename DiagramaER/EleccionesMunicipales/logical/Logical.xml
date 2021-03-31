@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DA16E544-3D9B-283A-7855-FC86C110D6BE" mainViewID="43C008E6-4B63-C8BE-8271-D8BFFA333E63">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 12:58:10 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

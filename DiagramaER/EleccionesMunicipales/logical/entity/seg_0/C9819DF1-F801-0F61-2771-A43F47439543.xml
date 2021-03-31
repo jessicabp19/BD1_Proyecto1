@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9819DF1-F801-0F61-2771-A43F47439543" name="EleccionPartido">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 13:38:54 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C1974181-73E3-C12C-2BF8-57D8E0E4A74A">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 13:39:02 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="27595463-03CB-3934-BCBB-B52FC5F5547E">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 13:54:48 UTC</createdTime>
+<generatorID>F0E94F94-FB55-8F3A-88D1-D09D362C342D</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<referedAttribute>53BBFADB-7099-4F10-6368-2E84E778C11F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="5EEA7A64-6C3A-F881-FA65-79030C9BC81C">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-23 06:19:15 UTC</createdTime>
+<generatorID>F800555E-53C2-CD78-6051-00A94D8F8C32</generatorID>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="true"/>
+</engineerTo>
+<referedAttribute>B57E2FB3-BC39-B737-4BC2-134A54D480BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D282A46-9230-FDFA-66BC-DFA511B19958" name="Votacion PK">
+<createdBy>JESSICA</createdBy>
+<createdTime>2021-03-09 13:39:07 UTC</createdTime>
+<ownerDesignName>EleccionesMunicipales</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D579CE29-87A7-FBDF-ACE5-DC364ADB2F2B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1974181-73E3-C12C-2BF8-57D8E0E4A74A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
