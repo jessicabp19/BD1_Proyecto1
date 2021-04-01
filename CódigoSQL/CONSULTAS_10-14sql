@@ -3,14 +3,54 @@
     y el partido que obtuvo menos votos. (La diferencia más pequeña). */
     
     SELECT * FROM RAZA;
+    
 /* 11. Desplegar el total de votos y el porcentaje de votos emitidos por mujeres indígenas alfabetas. */
+
+    SELECT vmia.totalvotos as VOTOS_MUJER_INDIGENA_ALFABETA, ROUND((vmia.totalvotos/totalglobal.totalvotos*100),3) as PorcentajeGlobal FROM
+    
+        (SELECT SUM(dv.alfabetas) AS TotalVotos
+        FROM PARTIDO pa, DETALLEVOTOS dv, MUNICIPIO m, DEPARTAMENTO d, REGION r, PAIS p, ELECCIONPARTIDO ep, GENERO g, RAZA ra
+        WHERE dv.genero = g.idGenero and g.genero = 'mujeres' and dv.raza = ra.idRaza and ra.raza = 'INDIGENAS' 
+        AND dv.eleccionpartido = ep.idEP and ep.partido = pa.idPartido AND dv.municipio = m.idMunicipio 
+        AND m.departamento = d.idDepartamento 
+        AND d.region = r.idRegion AND r.pais = p.idPais ) vmia -- MujeresU
+        ,
+        (SELECT SUM(dv.alfabetas + dv.analfabetas) as TotalVotos FROM DETALLEVOTOS dv) totalglobal
+    ;
+
 
 /* 12. Desplegar el nombre del país, el porcentaje de votos de ese país en el que han votado mayor porcentaje de analfabetas. 
     (tip: solo desplegar un nombre de país, el de mayor porcentaje). */
 
+    SELECT DISTINCT votosan.pais, ROUND((votosan.totalvotos/totalpais.totalvotos*100),3) as Porcentaje_Votos_Analfabetas FROM
+        
+        (SELECT p.nombre AS pais, SUM(dv.analfabetas) AS TotalVotos
+        FROM PARTIDO pa, DETALLEVOTOS dv, MUNICIPIO m, DEPARTAMENTO d, REGION r, PAIS p, ELECCIONPARTIDO ep
+        WHERE dv.eleccionpartido = ep.idEP and ep.partido = pa.idPartido AND dv.municipio = m.idMunicipio 
+        AND m.departamento = d.idDepartamento 
+        AND d.region = r.idRegion AND r.pais = p.idPais
+        GROUP BY  p.nombre
+        ORDER BY p.nombre) votosan
+        ,
+        (SELECT p.nombre AS pais, SUM(dv.alfabetas + dv.analfabetas) AS TotalVotos
+        FROM PARTIDO pa, DETALLEVOTOS dv, MUNICIPIO m, DEPARTAMENTO d, REGION r, PAIS p, ELECCIONPARTIDO ep, RAZA ra
+        WHERE dv.raza = ra.idRaza and dv.eleccionpartido = ep.idEP and ep.partido = pa.idPartido AND dv.municipio = m.idMunicipio 
+        AND m.departamento = d.idDepartamento 
+        AND d.region = r.idRegion AND r.pais = p.idPais
+        GROUP BY  p.nombre
+        ORDER BY p.nombre) totalpais
+            
+    WHERE votosan.pais = totalpais.pais
+    ORDER BY Porcentaje_Votos_Analfabetas DESC 
+    FETCH NEXT 1 ROWS ONLY
+
 /* 13. Desplegar la lista de departamentos de Guatemala y número de votos obtenidos, 
     para los departamentos que obtuvieron más votos que el departamento de Guatemala. */
+
+
 
 /* 14. Desplegar el total de votos de los municipios agrupados por su letra inicial. 
     Es decir, agrupar todos los municipios con letra A y calcular su número de votos, 
     lo mismo para los de letra inicial B, y así sucesivamente hasta la Z. */
+    
+    
